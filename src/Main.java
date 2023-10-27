@@ -9,7 +9,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         CSVReader csvReader = new CSVReader();
         final FileManager fileManager = new FileManager();
-
+//comentt
         final List<Student> students = csvReader.getStudentsFromCSV("resources/info.csv");
         fileManager.writeStudentsAnalysis(students, "resources/analysis.txt");
     }
